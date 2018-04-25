@@ -15,6 +15,4 @@ COPY nginx.conf /etc/nginx/
 COPY start.sh /
 RUN chmod a+x /start.sh
 
-USER www
-
 CMD ["/start.sh"]
